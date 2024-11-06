@@ -47,7 +47,7 @@ bot.start((ctx) => {
 
     // Send the image with caption and inline keyboard
     ctx.replyWithPhoto(imageUrl, {
-        caption: `*Hey, ${userName}! Welcome to Demo Tap App!*\n\nClick on Play Now to start mining Ton Coin`,
+        caption: `*Hey, ${userName}! Welcome to Vanilla Swap!*\n\nClick on Play Now to start $VSWAP`,
         parse_mode: "Markdown",
         reply_markup: {
             inline_keyboard: [
