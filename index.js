@@ -34,7 +34,7 @@ app.listen(port, async () => {
 
 const bot = new Telegraf(BOT_TOKEN);
 
-const web_link = "https://vanilllaswap.netlify.app/";
+const web_link = "https://vswaptest.netlify.app";
 
 // Define the URL of the image you want to send
 const imageUrl = "https://postimg.cc/dDVZzf99"; // 📌 **Replace this with your actual image URL**
